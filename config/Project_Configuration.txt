@@ -1,1 +1,18 @@
+############################################################################################################
+#### 1) Set if on "windows" or "linux"
+operation_system<-"windows"
 
+# If on windows 
+if (operation_system=="windows" )
+{
+  #### b) Or in Windows
+  project_folder="C:/Users/felip/OneDrive/Documentos/GitHub/CoffeeLeafRustIncidence_SurrogateModelling/"
+} else # if on linux
+{
+  #### a) If in Linux 
+  project_folder="/home/felipe/Documents/CoffeeLeafRustIncidence_SurrogateModelling/"
+}
+############################################################################################################
+#### 2) Set up outputfolder
+output_dir=project_folder
+############################################################################################################
