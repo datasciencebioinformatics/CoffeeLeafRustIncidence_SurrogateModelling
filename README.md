@@ -15,8 +15,10 @@ source(paste(project_folder,"/code/Version_Control.R",sep=""))
 
 ##############################################################
 ### 1. Load data
-#### 0.4) Set output folder according to version
 source(paste(project_folder,"/code/LoadData.R",sep=""))
+
+### 2. Surrogate model
+source(paste(project_folder,"/code/SurrogateModel.R",sep=""))
 
 
 
